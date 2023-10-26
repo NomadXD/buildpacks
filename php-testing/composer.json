@@ -1,0 +1,23 @@
+{
+  "name": "lahirudesilva/php-testing",
+  "autoload": {
+    "psr-4": {
+      "Lahirudesilva\\PhpTesting\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Lahiru De Silva",
+      "email": "lahirude@wso2.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.4",
+    "pestphp/pest": "^2.24"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
